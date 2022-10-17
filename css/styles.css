@@ -133,10 +133,9 @@ color: var(--blue);
 }
 
 .icon-mail{
-    width: 20px;
-    height: 16px;
-    margin-right: 10px;
-    fill: #757575;
+width: 20px;
+height: 16px;
+fill: #757575;
 }
 
 .icon-mail:hover{
@@ -237,7 +236,7 @@ justify-content: space-between;
 margin-left: 30px;
 }
 
-.about-item::before{
+/*.about-item::before{
    display: block;
     content: "";
     width: 270px;
@@ -264,6 +263,20 @@ margin-bottom: 30px;
 
 .icon-astronaut::before{
     background-image: url(../images/astronaut.png);
+}*/
+.icon-about{
+    width: 70px;
+    height: 70px;   
+}
+
+
+.container-about{
+    margin-bottom: 30px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    padding: 25px 100px;
+width: 270px;
+height: 120px;
 }
 
 .section-work{
