@@ -132,6 +132,18 @@ a.nav-link.current{
 color: var(--blue);
 }
 
+.icon-mail{
+    width: 20px;
+    height: 16px;
+    margin-right: 10px;
+    fill: #757575;
+}
+
+.icon-mail:hover{
+fill: var(--blue);
+}
+
+
 
 
 .banner{
@@ -296,7 +308,7 @@ background-color: var(--white);
 
 .employee-information{
 padding-top: 30px;
-padding-bottom: 30px;
+/*padding-bottom: 30px;*/
 border-radius: 0px 0px 4px 4px;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -331,6 +343,72 @@ justify-content: space-between;
 
 .team-list .employee-card + .employee-card{
 margin-left: 30px;
+}
+
+.social-list{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 32px 30px 32px;
+}
+
+.social-item{
+height: 44px;
+width: 44px;
+padding: 12px 12px;
+border-radius: 50%;
+}
+
+.social-item:hover{
+background-color: var(--blue);
+}
+
+.icon-social{
+height: 20px;
+width: 20px;
+fill: #AFB1B8;}
+
+.icon-social:hover{
+fill: var(--white);
+}
+
+
+.clients-section{
+padding-top: 94px ;
+padding-bottom: 94px;
+}
+
+
+.clients-title{
+    font-size: 36px;
+    line-height: calc(42/36);
+    letter-spacing: 0.03em;
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.clients-list{
+display: flex;
+justify-content: space-between;
+}
+
+.icon-clients{
+
+width: 106px;
+height: 60px;
+}
+
+.clients-item{
+padding:  16px 32px 16px 32px;
+height: 92px;
+width: 170px;
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+}
+
+.clients-item:hover{
+border-color: var(--blue);
+cursor: pointer;
 }
 
 .Map{
@@ -383,6 +461,52 @@ margin-top: 20px;
 margin-top: 9px;
 }
 
+.container-social-list-footer{
+    margin-left: 301px;
+}
+
+.social-list-footer{
+    display: flex; 
+}
+
+.social-list-footer .social-item + .social-item{
+    margin-left: 10px;
+}
+
+.social-item-footer{
+height: 44px;
+width: 44px;
+padding: 12px 12px;
+border-radius: 50%;
+background: rgba(255, 255, 255, 0.1);
+}
+
+.social-item-footer:hover{
+background-color: var(--blue);
+}
+
+.icon-social-footer{
+height: 20px;
+width: 20px;
+fill: var(--white);}
+
+.icon-social-footer:hover{
+fill: var(--white);
+}
+
+.contact-us{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+
+
 
 .portfolio-button-style {
 border: none;
@@ -399,14 +523,17 @@ padding: 6px 25px;
 }
 
 .button-list .portfolio-button :focus {
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 color: var(--white);
 background: var(--blue);
 }
 .button-list .portfolio-button :hover {
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 color: var(--white);
 background: var(--blue);
 }
 .button-list .portfolio-button :active{
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 color: var(--white);
 background: var(--blue);
 }
@@ -442,6 +569,14 @@ margin-bottom: 50px;
 display: flex;
 flex-wrap: wrap;
 gap: 30px;
+}
+
+.portfolio-shadow:hover{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.portfolio-shadow:focus{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .button-list .portfolio-button + .portfolio-button{
