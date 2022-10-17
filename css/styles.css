@@ -436,6 +436,7 @@ font-size: 26px;
 line-height: calc(31/26);
 letter-spacing: 0.03em;
 padding: 0px;
+margin: 0px;
 }
 
 .footer-contact-link{
@@ -461,19 +462,25 @@ margin-top: 20px;
 margin-top: 9px;
 }
 
+.for-footer-flex{
+display: flex;
+}
+
 .container-social-list-footer{
-    margin-left: 301px;
+margin-top: 10px;
+margin-left: 70px;
 }
 
 .social-list-footer{
-    display: flex; 
+display: flex; 
 }
 
-.social-list-footer .social-item + .social-item{
-    margin-left: 10px;
+.social-list-footer .social-item-footer + .social-item-footer{
+margin-left: 10px;
 }
 
 .social-item-footer{
+margin: 0px;
 height: 44px;
 width: 44px;
 padding: 12px 12px;
@@ -495,6 +502,8 @@ fill: var(--white);
 }
 
 .contact-us{
+margin: 0px;
+margin-bottom: 20px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
