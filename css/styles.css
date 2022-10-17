@@ -114,14 +114,22 @@ color: var(--Black21);
 }
 
 .contact-link{
+    gap: 10px;
+display: flex;
+align-items: center;
 font-weight: 500;
 line-height: calc(16/14);
 letter-spacing: 0.02em;   
 color: var(--grey75);
 }
 
-.contact-link:hover{ 
+.contact-link:hover { 
+fill: var(--blue);
 color: var(--blue);
+}
+
+.contact-link:hover .icon-contact{ 
+fill: var(--blue);
 }
 
 .contact-link:focus{ 
@@ -132,7 +140,7 @@ a.nav-link.current{
 color: var(--blue);
 }
 
-.icon-mail{
+.icon-contact{
 width: 20px;
 height: 16px;
 fill: #757575;
@@ -365,14 +373,20 @@ margin-left: 30px;
 }
 
 .social-item{
+    display: block;
+    align-items: center;
 height: 44px;
 width: 44px;
 padding: 12px 12px;
 border-radius: 50%;
 }
 
+.social-item:hover .icon-social{
+fill: var(--white);
+}
+
 .social-item:hover{
-background-color: var(--blue);
+    background-color: var(--blue);
 }
 
 .icon-social{
@@ -412,16 +426,27 @@ height: 60px;
 }
 
 .clients-item{
-padding:  16px 32px 16px 32px;
+display: flex;
+justify-content: center;
+align-items: center;
 height: 92px;
 width: 170px;
 border: 1px solid #AFB1B8;
 border-radius: 4px;
 }
 
+.icon-clients{
+    fill: var(--grey75);
+}
+
 .clients-item:hover{
+fill: var(--blue);
 border-color: var(--blue);
 cursor: pointer;
+}
+
+.clients-item:hover .icon-clients{
+fill: var(--blue);
 }
 
 .Map{
@@ -486,6 +511,7 @@ margin-left: 70px;
 
 .social-list-footer{
 display: flex; 
+gap: 10px;
 }
 
 .social-list-footer .social-item-footer + .social-item-footer{
@@ -493,6 +519,9 @@ margin-left: 10px;
 }
 
 .social-item-footer{
+    
+    display: block;
+    line-height: 0;
 margin: 0px;
 height: 44px;
 width: 44px;
@@ -501,7 +530,8 @@ border-radius: 50%;
 background: rgba(255, 255, 255, 0.1);
 }
 
-.social-item-footer:hover{
+.social-item-footer:hover {
+    fill: var(--white);
 background-color: var(--blue);
 }
 
