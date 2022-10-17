@@ -27,7 +27,6 @@ padding: 0;
 margin: 0;
 list-style: none; }
 
-
 .page-header {
 border-bottom: 1px solid #ECECEC;
 }
@@ -71,9 +70,6 @@ margin-left: 50px;
     padding-bottom: 94px;
 }
 
-
-
-
 .web-colour-blue {
     color: var(--blue);
 }
@@ -90,7 +86,6 @@ font-size: 26px;
 line-height: calc(31/26);
 letter-spacing: 0.03em;
  }
-
 
 .nav-link{
 font-weight: 500;
@@ -149,9 +144,6 @@ fill: #757575;
 .icon-mail:hover{
 fill: var(--blue);
 }
-
-
-
 
 .banner{
 background: #C4C4C4;
@@ -273,16 +265,15 @@ margin-bottom: 30px;
     background-image: url(../images/astronaut.png);
 }*/
 .icon-about{
-    width: 70px;
-    height: 70px;   
+width: 70px;
+height: 70px;   
 }
 
-
 .container-about{
-    margin-bottom: 30px;
-    background: #F5F4FA;
-    border-radius: 4px;
-    padding: 25px 100px;
+margin-bottom: 30px;
+background: #F5F4FA;
+border-radius: 4px;
+padding: 25px 100px;
 width: 270px;
 height: 120px;
 }
@@ -367,14 +358,14 @@ margin-left: 30px;
 }
 
 .social-list{
-    display: flex;
-    justify-content: space-between;
-    padding: 16px 32px 30px 32px;
+display: flex;
+justify-content: space-between;
+padding: 16px 32px 30px 32px;
 }
 
 .social-item{
-    display: block;
-    align-items: center;
+display: block;
+align-items: center;
 height: 44px;
 width: 44px;
 padding: 12px 12px;
@@ -386,7 +377,7 @@ fill: var(--white);
 }
 
 .social-item:hover{
-    background-color: var(--blue);
+background-color: var(--blue);
 }
 
 .icon-social{
@@ -406,12 +397,12 @@ padding-bottom: 94px;
 
 
 .clients-title{
-    font-size: 36px;
-    line-height: calc(42/36);
-    letter-spacing: 0.03em;
-    margin-top: 0px;
-    text-align: center;
-    margin-bottom: 50px;
+font-size: 36px;
+line-height: calc(42/36);
+letter-spacing: 0.03em;
+margin-top: 0px;
+text-align: center;
+margin-bottom: 50px;
 }
 
 .clients-list{
@@ -436,7 +427,7 @@ border-radius: 4px;
 }
 
 .icon-clients{
-    fill: var(--grey75);
+fill: var(--grey75);
 }
 
 .clients-item:hover{
@@ -520,8 +511,8 @@ margin-left: 10px;
 
 .social-item-footer{
     
-    display: block;
-    line-height: 0;
+display: block;
+line-height: 0;
 margin: 0px;
 height: 44px;
 width: 44px;
@@ -556,7 +547,6 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #FFFFFF;
 }
-
 
 .portfolio-button-style {
 border: none;
